@@ -1,4 +1,4 @@
-package com.example.chatapp.utils;
+package com.example.chatappnt109.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.example.chatapp.model.UserModel;
+import com.example.chatappnt109.model.UserModel;
 
 public class AndroidUtil {
 

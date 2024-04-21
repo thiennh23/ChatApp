@@ -1,4 +1,4 @@
-package com.example.chatapp.model;
+package com.example.chatappnt109.model;
 
 import com.google.firebase.Timestamp;
 

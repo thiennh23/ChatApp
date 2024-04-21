@@ -1,4 +1,4 @@
-package com.example.chatapp;
+package com.example.chatappnt109;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,7 +14,6 @@ import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -22,13 +21,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.chatapp.adapter.ChatRecyclerAdapter;
-import com.example.chatapp.adapter.SearchUserRecyclerAdapter;
-import com.example.chatapp.model.ChatMessageModel;
-import com.example.chatapp.model.ChatroomModel;
-import com.example.chatapp.model.UserModel;
-import com.example.chatapp.utils.AndroidUtil;
-import com.example.chatapp.utils.FirebaseUtil;
+import com.example.chatappnt109.adapter.ChatRecyclerAdapter;
+import com.example.chatappnt109.model.ChatMessageModel;
+import com.example.chatappnt109.model.ChatroomModel;
+import com.example.chatappnt109.model.UserModel;
+import com.example.chatappnt109.utils.AndroidUtil;
+import com.example.chatappnt109.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -302,7 +300,7 @@ public class ChatActivity extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
-                .header("Authorization", "Bearer AAAAcH3QLEo:APA91bFN7x-ehIXxWTF5ntHItd0H0W5B_HswOHNwmxYTfAmpWxy9TADbxvYgETSp3ll-7TtrAaneQ71Yt4-75vnoZtNY9AVFQNh27xwAr2TjBiMZOGWqh5UE-gg_VRf37VQ0ijfP4FRG")
+                .header("Authorization", "Bearer AAAAhIBFnPs:APA91bFj_Nx5jXpggx7zLxtMoQXmHOXjVpATjj0RCv2cqpliVIZ9yLA6fYP4D9T9T1JYCr7UPrlZuw5vOFWBYz_iYkQmIPqJhGyNo2T3nT3kEfh2zCfmpDuvNZOMZ8RU_Jz7OsfKnj2o")
                 .build();
 
         client.newCall(request).enqueue(new Callback() {

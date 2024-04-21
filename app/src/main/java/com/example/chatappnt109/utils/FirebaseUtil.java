@@ -1,6 +1,4 @@
-package com.example.chatapp.utils;
-
-import android.util.Log;
+package com.example.chatappnt109.utils;
 
 import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;

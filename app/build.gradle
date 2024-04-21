@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.chatapp'
+    namespace 'com.example.chatappnt109'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.chatapp"
+        applicationId "com.example.chatappnt109"
         minSdk 26
         targetSdk 33
         versionCode 1

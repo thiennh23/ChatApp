@@ -1,6 +1,5 @@
-package com.example.chatapp;
+package com.example.chatappnt109;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -21,14 +20,13 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.example.chatapp.model.UserModel;
-import com.example.chatapp.utils.AndroidUtil;
-import com.example.chatapp.utils.FirebaseUtil;
+import com.example.chatappnt109.model.UserModel;
+import com.example.chatappnt109.utils.AndroidUtil;
+import com.example.chatappnt109.utils.FirebaseUtil;
 import com.github.dhaval2404.imagepicker.ImagePicker;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.messaging.FirebaseMessaging;
-import com.google.firebase.storage.UploadTask;
 
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;

@@ -1,4 +1,4 @@
-package com.example.chatapp;
+package com.example.chatappnt109;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.chatapp.model.UserModel;
-import com.example.chatapp.utils.AndroidUtil;
-import com.example.chatapp.utils.FirebaseUtil;
+import com.example.chatappnt109.model.UserModel;
+import com.example.chatappnt109.utils.AndroidUtil;
+import com.example.chatappnt109.utils.FirebaseUtil;
 
 public class SplashActivity extends AppCompatActivity {
 

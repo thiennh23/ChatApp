@@ -1,17 +1,16 @@
-package com.example.chatapp;
+package com.example.chatappnt109;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
-import com.example.chatapp.adapter.SearchUserRecyclerAdapter;
-import com.example.chatapp.model.UserModel;
-import com.example.chatapp.utils.FirebaseUtil;
+import com.example.chatappnt109.adapter.SearchUserRecyclerAdapter;
+import com.example.chatappnt109.model.UserModel;
+import com.example.chatappnt109.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.Query;
 

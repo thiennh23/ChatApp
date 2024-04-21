@@ -1,7 +1,6 @@
-package com.example.chatapp.adapter;
+package com.example.chatappnt109.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,11 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.chatapp.ChatActivity;
-import com.example.chatapp.R;
-import com.example.chatapp.model.ChatMessageModel;
-import com.example.chatapp.utils.AndroidUtil;
-import com.example.chatapp.utils.FirebaseUtil;
+import com.example.chatappnt109.R;
+import com.example.chatappnt109.model.ChatMessageModel;
+import com.example.chatappnt109.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.Timestamp;

@@ -1,8 +1,7 @@
-package com.example.chatapp;
+package com.example.chatappnt109;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -16,14 +15,11 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.example.chatapp.model.UserModel;
-import com.example.chatapp.utils.AndroidUtil;
-import com.example.chatapp.utils.FirebaseUtil;
+import com.example.chatappnt109.model.UserModel;
+import com.example.chatappnt109.utils.AndroidUtil;
+import com.example.chatappnt109.utils.FirebaseUtil;
 import com.github.dhaval2404.imagepicker.ImagePicker;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.Timestamp;
-import com.google.firebase.firestore.DocumentSnapshot;
 
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;

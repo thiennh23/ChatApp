@@ -1,4 +1,4 @@
-package com.example.chatapp;
+package com.example.chatappnt109;
 
 import android.os.Bundle;
 
@@ -9,13 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-import com.example.chatapp.adapter.RecentChatRecyclerAdapter;
-import com.example.chatapp.adapter.SearchUserRecyclerAdapter;
-import com.example.chatapp.model.ChatroomModel;
-import com.example.chatapp.model.UserModel;
-import com.example.chatapp.utils.FirebaseUtil;
+import com.example.chatappnt109.adapter.RecentChatRecyclerAdapter;
+import com.example.chatappnt109.model.ChatroomModel;
+import com.example.chatappnt109.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.Query;
 
